@@ -120,12 +120,13 @@ ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
 # Sort the list and find the min and max age
 ages.sort()
+print(ages)
 min_age = min(ages)
 max_age = max(ages)
 
 # Add the min age and max age again to the list
 ages.extend([min_age, max_age])
-
+print(ages)
 # Find the median age
 sorted_ages = sorted(ages)
 median_age = (sorted_ages[len(sorted_ages) // 2 - 1] + sorted_ages[len(sorted_ages) // 2]) / 2
