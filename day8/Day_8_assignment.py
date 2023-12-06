@@ -47,13 +47,13 @@ print('Address:', student['address']['house_no'],',' , student['address']['stree
 
 print()
 # 4. Length of Student Dictionary
-print(len(student))
+print('Length of Student dictionary:', len(student))
 
 print()
 # 5. Get value of Skills and Checking Data type
 skills = student.get('skills')
-print(skills)
-print(type('skills'))
+print("Student's Skills:", skills)
+print('Data type:', type('skills'))
 
 print()
 
@@ -61,7 +61,7 @@ print()
 add_skills = ['UX', 'R', 'React']
 student['skills'].extend(add_skills)
 
-print(student['skills'])
+print("Updated Student's Skills:", student['skills'])
 
 print()
 
