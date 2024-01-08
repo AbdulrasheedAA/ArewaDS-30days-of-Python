@@ -1,4 +1,4 @@
-# Day 2: 30 Days of python programming
+# Day 2: Variables, Builtin Functions
 
 # Excercise Level 1
 firstname = 'Abdulrasheed'
