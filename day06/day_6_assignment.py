@@ -1,4 +1,5 @@
-# Exercise 1
+# Day 6 Assignment : Tuples
+# Exercise 1 
 # Create an empty tuple
 empty_tuple = ()
 print(empty_tuple)
